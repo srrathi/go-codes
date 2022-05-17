@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "bc6e32b9-9b2c-45ba-a5dc-286c79663f46",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/api/movie",
+    "url": "http://localhost:9001/api/movie",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-04-22T17:18:49.972Z",
+    "modified": "2022-04-22T18:02:19.314Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"movie\":\"Kgf chapter 1\",\n    \"watched\":true\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

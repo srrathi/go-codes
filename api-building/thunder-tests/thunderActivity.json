@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "92b1cf12-2f79-438f-92d9-4a010cdf091f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/courses",
+    "url": "http://localhost:9001/courses",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-22T10:37:08.509Z",
+    "modified": "2022-04-22T10:52:17.025Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "52ebbc73-b9fd-423c-affb-3f364a5e16cc",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/course/123",
+    "url": "http://localhost:9001/course/123",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-22T10:37:49.703Z",
+    "modified": "2022-04-22T10:41:39.862Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "71ec25d0-2f67-40b5-a2ea-ab9b0e26f4f8",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/course",
+    "url": "http://localhost:9001/course",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-04-22T10:39:55.415Z",
+    "modified": "2022-04-22T10:48:06.232Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"courseName\":\"Angularjs\",\n    \"coursePrice\":199,\n    \"courseAuthor\": {\n    \"fullname\": \"Rohit\",\n    \"website\": \"rohit.dev.com\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0e9125af-32c9-44a9-95a4-2873fbbe5bb8",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/course/27",
+    "url": "http://localhost:9001/course/27",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-04-22T10:50:26.586Z",
+    "modified": "2022-04-22T10:50:55.879Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"courseId\": \"288\",\n    \"courseName\": \"Angular-js\",\n    \"coursePrice\": 199,\n    \"courseAuthor\": {\n      \"fullname\": \"Rohit Rathi\",\n      \"website\": \"rohit.dev.com\"\n    }\n  }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d789a7fb-81a0-4973-a9c2-e015132c98c3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9001/course/123",
+    "url": "http://localhost:9001/course/123",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-04-22T10:52:04.970Z",
+    "modified": "2022-04-22T10:52:55.590Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
